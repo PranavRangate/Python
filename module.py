@@ -22,3 +22,10 @@ print(m.factorial(4))
 
 import time
 print(time.time())
+
+import random
+
+print(random.random() * 100)  
+
+List = [1, 4, True, 800, "python", 27, "hello"]
+print(random.choice(List)) 
